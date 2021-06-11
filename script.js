@@ -26,7 +26,7 @@ function multiplyInputs () {
       num2 = Math.abs(num2)
       // This loop adds the first number to the product until the counter is equivalent to the second number.
       for (counter = 0; counter < num2; counter++) {
-      product = product + num1
+        product = product + num1
       }
       // Write the answer in both the answer paragraph and in the console.
       console.log(product)
@@ -40,7 +40,7 @@ function multiplyInputs () {
 
       // This loop subtracts the first number from the product until the counter is equivalent to the second number.
       for (counter = 0; counter < num2; counter++) {
-      product = product - num1
+        product = product - num1
       }
       // Write the answer in both the answer paragraph and in the console.
       console.log(product)
